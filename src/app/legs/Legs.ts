@@ -1,5 +1,5 @@
 import { OnInit, HostListener } from '@angular/core';
-import { ElementScrollPercentage } from 'src/app/element-scroll-percentage';
+import { ElementScrollPercentage } from '../element-scroll-percentage';
 import { range } from 'rxjs';
 
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ElementScrollPercentage } from 'src/app/element-scroll-percentage';
+import { ElementScrollPercentage } from '../../element-scroll-percentage';
 import { Legs } from '../Legs';
 
 @Component({
