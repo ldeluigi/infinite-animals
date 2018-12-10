@@ -90,7 +90,7 @@ export class ElementScrollPercentage {
 
     if (node instanceof Document) {
 
-      return (window.pageYOffset);
+      return ((window.pageYOffset !== undefined) ? window.pageYOffset : (<any> (document.documentElement || document.body.parentNode || document.body)).scrollTop);
 
     } else {
 
