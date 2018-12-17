@@ -5,11 +5,11 @@ import { GiraffeComponent } from './animals/giraffe/giraffe.component';
 import { DeerComponent } from './animals/deer/deer.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/horse', pathMatch: 'full' },
+  { path: '', redirectTo: 'horse', pathMatch: 'full' },
   { path: 'horse', component: HorseComponent },
   { path: 'giraffe', component: GiraffeComponent },
   { path: 'deer', component: DeerComponent },
-  { path: '**', redirectTo: '/', pathMatch: 'full' }
+  { path: '**', redirectTo: 'horse', pathMatch: 'full' }
 ];
 
 @NgModule({
