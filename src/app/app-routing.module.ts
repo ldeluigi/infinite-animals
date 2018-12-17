@@ -8,7 +8,8 @@ const routes: Routes = [
   { path: '', redirectTo: '/horse', pathMatch: 'full' },
   { path: 'horse', component: HorseComponent },
   { path: 'giraffe', component: GiraffeComponent },
-  { path: 'deer', component: DeerComponent }
+  { path: 'deer', component: DeerComponent },
+  { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];
 
 @NgModule({
