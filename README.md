@@ -1,7 +1,7 @@
 # InfiniteAnimal
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
-A prudction deployment of the website can be found at https://ldeluigi.github.io/infinite-animals/animals/
+A production deployment of the website can be found at https://ldeluigi.github.io/infinite-animals/animals/
 
 ## Development server
 
