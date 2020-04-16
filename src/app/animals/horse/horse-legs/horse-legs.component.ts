@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ElementScrollPercentage } from '../../element-scroll-percentage';
-import { Legs } from '../Legs';
+import { ElementScrollPercentage } from '../../../element-scroll-percentage';
+import { Legs } from '../../../legs/Legs';
 
 @Component({
   selector: 'app-horse-legs',

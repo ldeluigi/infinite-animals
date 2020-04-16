@@ -8,7 +8,7 @@ export class Legs implements OnInit {
   public segments = [];
 
   constructor(private elementScrollPercentage: ElementScrollPercentage) {
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < this.startSegments; i++) {
       this.addLegSegment();
     }
   }

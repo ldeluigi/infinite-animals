@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Legs } from '../Legs';
-import { ElementScrollPercentage } from '../../element-scroll-percentage';
+import { Legs } from '../../../legs/Legs';
+import { ElementScrollPercentage } from '../../../element-scroll-percentage';
 
 @Component({
   selector: 'app-deer-legs',
