@@ -61,7 +61,8 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "infinite-animal:build:production"
+              "browserTarget": "infinite-animal:build:production",
+              "baseHref": "./"
             }
           }
         },
