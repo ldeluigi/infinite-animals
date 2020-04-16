@@ -8,9 +8,9 @@ import { RhinoComponent } from './animals/rhino/rhino.component';
 const routes: Routes = [
   { path: '', redirectTo: 'horse', pathMatch: 'full' },
   { path: 'horse', component: HorseComponent },
-  { path: 'giraffe', component: GiraffeComponent },
   { path: 'deer', component: DeerComponent },
   { path: 'rhino', component: RhinoComponent },
+  { path: 'giraffe', component: GiraffeComponent },
   { path: '**', redirectTo: 'horse', pathMatch: 'full' }
 ];
 
