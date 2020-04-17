@@ -4,7 +4,7 @@ import { range } from 'rxjs';
 
 
 export class Legs implements OnInit {
-  private startSegments: number = 3;
+  private startSegments: number = 5;
   public segments = [];
 
   constructor(private elementScrollPercentage: ElementScrollPercentage) {
