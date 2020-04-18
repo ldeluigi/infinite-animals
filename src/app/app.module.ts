@@ -12,6 +12,7 @@ import { DeerLegsComponent } from './animals/deer/deer-legs/deer-legs.component'
 import { DeerComponent } from './animals/deer/deer.component';
 import { RhinoComponent } from './animals/rhino/rhino.component';
 import { RhinoLegsComponent } from './animals/rhino/rhino-legs/rhino-legs.component';
+import { GithubLinkComponent } from './github-link/github-link.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RhinoLegsComponent } from './animals/rhino/rhino-legs/rhino-legs.compon
     DeerLegsComponent,
     DeerComponent,
     RhinoLegsComponent,
-    RhinoComponent
+    RhinoComponent,
+    GithubLinkComponent
   ],
   imports: [
     BrowserModule,

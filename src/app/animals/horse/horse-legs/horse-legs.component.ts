@@ -8,10 +8,6 @@ import { Legs } from '../../../legs/Legs';
   styles: ['pre { margin: 0; }']
 })
 export class HorseLegsComponent extends Legs {
-  /*@HostListener('window:scroll', ['$event'])
-  onWindowScroll(event) {
-    console.log(event);
-  }*/
   constructor(elementScrollPercentage: ElementScrollPercentage) {
     super(elementScrollPercentage);
   }
