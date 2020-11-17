@@ -32,6 +32,8 @@ jobs:
         run: npm run-script gh-pages
       - name: Commit Pages
         run: |
+          git config --global user.email "github-bot@github.com"
+          git config --global user.name "Github Docs Bot"
           git add docs/
           git commit -m "Build & Deploy Docs"
           git push
