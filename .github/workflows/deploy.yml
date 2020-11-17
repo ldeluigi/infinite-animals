@@ -1,4 +1,4 @@
-name: Test and Deploy to Github Pages
+name: Deploy to Github Pages
 
 on:
   push:
@@ -28,10 +28,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
         run: npm ci
-      - name: Build
-        run: npm run-script build
-      - name: Test
-        run: npm run-script test-prod
       - name: Build for Production
         run: npm run-script gh-pages
       - name: Commit Pages
