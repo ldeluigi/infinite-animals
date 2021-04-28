@@ -1,8 +1,9 @@
-import { OnInit, HostListener } from '@angular/core';
+import { OnInit, HostListener, Directive } from '@angular/core';
 import { ElementScrollPercentage } from '../element-scroll-percentage';
 import { range } from 'rxjs';
 
 
+@Directive()
 export class Legs implements OnInit {
   private startSegments: number = 10;
   public segments = [];
